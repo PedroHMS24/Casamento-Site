@@ -50,12 +50,18 @@ const imagens = [
   "foto241.jpg", "foto242.jpg", "foto243.jpg", "foto244.jpg", "foto245.jpg",
   "foto246.jpg", "foto247.jpg", "foto248.jpg", "foto249.jpg", "foto250.jpg",
   "foto251.jpg", "foto252.jpg", "foto253.jpg", "foto254.jpg", "foto255.jpg",
-  "foto256.jpg", "foto257.jpg", "foto258.jpg", "foto259.jpg", "foto260.jpg"
+  "foto256.jpg", "foto257.jpg", "foto258.jpg", "foto259.jpg", "foto260.jpg",
+  "foto261.jpg", "foto262.jpg", "foto263.jpg", "foto264.jpg", "foto265.jpg",
+  "foto266.jpg", "foto267.jpg", "foto268.jpg", "foto269.jpg", "foto270.jpg",
+  "foto271.jpg", "foto272.jpg", "foto273.jpg", "foto274.jpg", "foto275.jpg",
+  "foto276.jpg", "foto277.jpg", "foto278.jpg", "foto279.jpg", "foto280.jpg",
+  "foto281.jpg"
+
 ];
 
 
 
-for (let i = 1; i <= 260; i++) {
+for (let i = 1; i <= 281; i++) {
   imagens.push(`foto${i}.jpg`);
 }
 

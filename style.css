@@ -39,7 +39,6 @@ h1 {
   margin: auto;
 }
 
-/* Cada item da galeria */
 .gallery-item {
   background: white;
   border-radius: 12px;
@@ -47,10 +46,12 @@ h1 {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  height: 280px;
   justify-content: space-between;
   text-align: center;
+  padding: 0.5rem; /* opcional, pode remover */
+  height: auto;
 }
+
 
 /* Imagem */
 .gallery-item img {
@@ -62,8 +63,8 @@ h1 {
 
 /* Botão de download individual */
 .download-btn {
-  margin: 12px;
-  padding: 10px;
+  margin: 6px auto;
+  padding: 6px 12px;
   border: none;
   background-color: #b0345b;
   color: white;
